@@ -1,0 +1,241 @@
+
+.navbar-brand {
+    margin-right: 50px;
+}
+.navbar-brand img {
+    width: 66px;
+    position: absolute;
+    top: 12px;
+    left: 22px;
+    z-index: 10;
+}
+
+body {
+    font-family: Poppins,open-sans,sans-serif!important;
+    color: #bbb;
+}
+.header{
+    height: 66px;
+    display: flex;
+}
+.nav-right{
+    float: right;
+    min-width: 390px;
+    height: 100%;
+}
+.nav-right .item{
+    height: 66px;
+    float: right;
+}
+.nav-right .item .menu-btn{
+    width: 120px;
+    height: 100%;
+    border-left: 1px solid #f0f0f0;
+    cursor: pointer;
+    padding-top: 30px;
+    padding-left: 26px;
+}
+.nav-right .item .trustpilot {
+    width: 140px;
+    padding-top: 8px;
+}
+.nav-right .item .trustpilot img {
+    width: 130px;
+}
+@media (max-width: 1105px){
+    .nav-right .item .trustpilot img {
+        width: 90px;
+    }
+    .nav-right .item .trustpilot {
+        padding-top: 16px;
+        width: 100px;
+    }
+    .nav-right {
+        min-width: 300px;
+    }
+}
+
+.nav-right .item .menu-btn img {
+    width: 15px;
+    line-height: 20px;
+    float: left;
+}
+.nav-right .item .menu-btn p {
+    color: #0c2340;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    float: left;
+    margin-top: -4px;
+    margin-left: 13px;
+}
+.nav-right .item .menu-btn p:hover {
+    color: #bbb;
+}
+.nav-right .item .menu-btn:hover {
+    background-color: #f0f0f0;
+}
+.navbar-collapse{
+    width: 100%!important;
+}
+
+@media (max-width: 1020px){
+    .nav-right .item .trustpilot {
+        display: none;
+    }
+    .nav-right {
+        width: 250px;
+    }
+}
+@media (max-width: 766px){
+    .nav-right {
+        min-width: 180px;
+    }
+}
+@media (max-width: 990px){
+    .nav-right {
+        margin-left: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+@media (max-width: 1200px){
+    #navbar ul li a {
+        font-size: 11px;
+        font-weight: 700;
+    }
+    #navbar ul li {
+        max-width: 100px;
+    }
+    .navbar-nav li {
+        padding: 14px 10px!important;
+        font-weight: 600;
+    }
+}
+@media (max-width: 1350px) and (min-width: 1201px){
+    #navbar ul li {
+        max-width: 100px;
+    }
+    .navbar-nav li {
+        padding: 14px 10px!important;
+        font-weight: 600;
+    }
+}
+
+.navbar-nav {
+    -ms-flex-align: center;
+    align-items: center;
+    list-style: none;
+}
+.navbar-nav li{
+    padding:23px 10px;
+    font-weight: 600;
+    
+}
+.navbar-nav li a{
+    color: #bbb;
+}
+.navbar-nav li a:hover{
+    text-decoration: none;
+    color:#00bbdc;
+}
+
+.alert.covid-19-alert a {
+    color: #0c2340;
+    display: inline-block;
+    text-decoration: none;
+}
+.alert.covid-19-alert {
+    background-color: #ffe26e;
+    border: none;
+    color: #0c2340;
+    font-size: 13px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.text-underline {
+    text-decoration: underline!important;
+}
+.alert{
+    padding: .75rem 1.25rem!important;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.home-header {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 60%;
+    position: relative;
+}
+
+@media (max-width: 820px){
+    .home-header {
+        background-size: 130%;
+        height: 430px;
+        background-position-x: -120px;
+    }
+}
+@media (max-width: 660px){
+    .home-header {
+        background-size: 150%;
+    }
+}
+
+@media (max-width: 515px){
+    .home-header {
+        background-size: 225%;
+        background-position-x: -368px;
+        background-position-y: 0;
+    }
+}
+@media (max-width: 350px){
+    .home-header {
+        background-size: 215%;
+    }
+}
+.home-header .mna-winner-badge {
+    bottom: 12px;
+    height: 150px;
+    position: absolute;
+    right: 15px;
+    width: 150px;
+    z-index: 10;
+}
+.usps .row {
+    margin-top: 30px;
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.col {
+    -webkit-flex-basis: 0;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.usps img {
+    margin-bottom: 25px;
+    height: 60px;
+}
+
+h5 {
+    font-size: 17px;
+    font-weight: 800;
+}
+.usps {
+    background: #f5f5f5;
+    color: #00bbdc;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 100%;
+}
